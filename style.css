@@ -1,0 +1,93 @@
+
+body { 
+    width: 95%;
+    margin: 2px;
+    --s: 75px; /* control the size*/
+    --c1: #6b6b6a;
+    --c2: #fcebb6;
+    background:
+        linear-gradient(135deg,#0000 18.75%,var(--c1) 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,var(--c1) -6.25% 6.25%,var(--c2) 0 18.75%);
+    background-size: var(--s) var(--s); 
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item { 
+    width: 75%;
+    margin: 5px;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+    background: white;
+    text-shadow: 1px 1px 4px pink;
+    font-family: "Finger Paint", sans-serif;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 { 
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.title { 
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slogan { 
+    opacity: 50%;
+    position: absolute;
+}
+
+.top-left {
+    transform: rotate(-45deg);
+    top: 70px;
+    left: 0px;
+}
+
+.bottom-right {
+    bottom: 50px;
+    right: 50px;
+    transform: rotate(45deg);
+}
+
+.icons > img { 
+    height: 40px;
+    width: 40px;
+}
+
+.premise { 
+    /* display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+div.premise > p { 
+    margin: 0 5% 5% 5%;
+}
+
+.characters { 
+    /* display: flex;
+    justify-content: center; */
+}
+
+.creative {
+    /* display: flex;
+    flex-flow: column nowrap; */
+}
