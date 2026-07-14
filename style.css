@@ -90,13 +90,37 @@ div.row > img  {
     width: 40px;
 }
 
-.premise { 
-    /* display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center; */
-}
-
 div.premise > p { 
     margin: 0 5% 5% 5%;
 }
+
+div.characters > div.row:nth-child(2) {
+    justify-content: flex-start;
+}
+
+.character-block {
+    background-color: red;
+    padding: 15px;
+}
+
+div.character-block > li { 
+    display: block;
+}
+
+.hidden { 
+    display: none;
+}
+
+.character-gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+div.character-gallery-container > img {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
