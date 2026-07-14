@@ -45,8 +45,27 @@ h3 {
 .title { 
     color: blue;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.row { 
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+div.row > p  { 
+    margin: 2px;
+    font-size: 150px;
+    padding-left: 25px;
+    text-decoration: dashed;
+}
+
+div.row > img  { 
+    width: 120px;
+    height: 120px;
 }
 
 .slogan { 
@@ -80,14 +99,4 @@ h3 {
 
 div.premise > p { 
     margin: 0 5% 5% 5%;
-}
-
-.characters { 
-    /* display: flex;
-    justify-content: center; */
-}
-
-.creative {
-    /* display: flex;
-    flex-flow: column nowrap; */
 }
