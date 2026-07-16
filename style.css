@@ -19,32 +19,6 @@ body {
     justify-content: center;
 }
 
-@media  (max-width: 1112px) {
-    .container {
-        background: red;
-    }
-
-    div.title > div.row > p  { 
-        font-size: 90px;
-    }
-
-     div.title > div.row > img  { 
-        width: 60px;
-        height: 60px;
-    }
-}
-
-@media (max-width: 750px) {
-    .container {
-        background: blue;
-    }
-
-    div.title > div.row > p  { 
-        font-size: 70px;
-    }
-
-}
-
 .item { 
     width: 75%;
     margin: 5px;
@@ -77,13 +51,36 @@ body {
 
 div.row > p  { 
     margin: 2px;
-    font-size: 150px;
+    font-size: clamp(30px, 8vw, 180px);
     padding-left: 25px;
 }
 
+#title-row-the { 
+    font-size: clamp(18px, 4vw, 90px)
+}
+
+#title-row-cheer {
+    font-size: clamp(18px, 1vw, 20px)
+}
+
+#title-row-dj {
+    width: clamp(60px, 8vw, 120px);
+    height: clamp(40px, 6.5vw, 90px);
+}
+
+#title-row-jersey {
+    width: clamp(40px, 7vw, 90px);
+    height: clamp(60px, 10vw, 120px);
+}
+
+#title-row-subtitle {
+    font-size: clamp(18px, 1vw, 20px);
+    color:black;
+}
+
 div.row > img  { 
-    width: 120px;
-    height: 120px;
+    width: clamp(60px, 10vw, 120px);
+    height: clamp(60px, 10vw, 120px);
 }
 
 .slogan { 
