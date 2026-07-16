@@ -8,7 +8,10 @@ const setSwitches = () => {
 }
 
 const toggleHidden = ({ target }) => {
-    target.nextElementSibling.classList.toggle('hidden')
+    const { nextElementSibling } = target;
+    if (nextElementSibling && nextElementSibling.className.includes('character-detail')) {
+        nextElementSibling.classList.toggle('hidden')
+    }
 }
 
 
