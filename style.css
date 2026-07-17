@@ -128,15 +128,20 @@ div.character-block > li {
 
 .character-gallery-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     border: 1px solid black;
+    overflow: scroll;
+    height: auto;
+    width: 95%;
+    background: grey;
+    padding: 10px;
 }
 
 div.character-gallery-container > img {
-    height: 80px;
-    width: 80px;
-    padding: 10px;
+    height: 150px;
+    max-width: 200x;
+    border: 1px solid black;
 }
 
 #character-detail-popup { 
@@ -145,4 +150,5 @@ div.character-gallery-container > img {
     top: 25%;
     width: 50%;
     height: 50%;
+    padding: 10px;
 }

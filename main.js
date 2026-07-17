@@ -35,22 +35,33 @@ const populateCharacterInfoBlock = (target, popup) => {
 
 const characterDetails = { 
     'Weaver': {
-        text: 'This is where the text about Weaver goes.'
+        text: 'Coach Fletcher has two daughters: a basketball prodigy, and Weaver, a freshman psych student at Bridgetown. '+
+        "When her birthday falls on the day of Bridgetown's historic, first March Madness game, she decidees to attend the game "+
+        "hoping to somehow sabotage it, and exact revenge for her family's neglect."
     },
     'Erin': {
-        text: 'This is where the text about Erin goes.'
+        text: 'Saxophonist. Leader of Bridgetown U\'s Pep Band. Doctoral Student in Music. Literally Dr. Pepper. ' +
+        'Pop star Salem Boatright\'s attendance gives Erin visions of touring, if she can impress her, and prevent DJ Greg, ' +
+        'her ex-boyfriend, from stealing the spotlight'
     },
     'Greg': { 
-        text: 'This is where the text about Greg goes.'
+        text: 'DJ Shortcut. Erin\'s ex-boyfriend. He has failed upward into every position he has ever held in his life. '+
+        'Things come easily to him, and they are getting even easier now that AI helps him DJ. With Salem Boatright in attendance, '+
+        'he\'s confident he\'ll get invited to the tour. Why would\'t he?'
     },
     'Dean': {
-        text: 'This is where the text about Dean goes.'
+        text: "An up-and-coming influencer on GambleTok whose account has been hijacked for ransom, which he hopes to pay for "+
+        "by betting on a Bridgetown victory. He is at the game to stir up fans and secure the home court advantage, only to find "+
+        "himself forced to hide his true intentions to romance Weaver, next to whom he finds himself seated."
     },
     'Aiden': {
-        text: 'This is where the text about Aiden goes.'
+        text: "Previous alias: the Bridgetown Butcher. Alleged serial killer (acquitted), and formerly #22 of Bridgetown U (Men's team). " +
+        "His jersey had been hung in the arena, until the...unpleasantness. He will stop at nothing to get his number re-retired."
     },
     'Scout': {
-        text: 'This is where the text about Scout goes.'
+        text: 'A frustrated would-be sports journalist sent by the network to sniff out gossip-y stories of who is dating whom, and who' +
+        "is beefing with whom, questions they'd never ask male sports journalists. Her goal is threatened by Aiden, whose presence " +
+        "disrupts an orderly broadcast."
     }
 }
 
