@@ -108,6 +108,7 @@ div.row > img  {
 
 div.premise > p { 
     margin: 0 5% 5% 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.characters > div.row:nth-child(2) {
@@ -151,4 +152,5 @@ div.character-gallery-container > img {
     width: 50%;
     height: 50%;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
