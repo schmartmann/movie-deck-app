@@ -29,7 +29,8 @@ const populateCharacterInfoBlock = (target, popup) => {
     const imageTags = popup.children[2].children;
 
     for (let i = 0; i < imageTags.length; i ++) {
-        imageTags[i].src = `assets/img/${name.toLowerCase()}/${i + 1}.jpeg`
+        console.log('name.toLowerCase()', name.toLowerCase());
+        imageTags[i].src = `images/${name.toLowerCase()}/${i + 1}.jpeg`
     }
 }
 
