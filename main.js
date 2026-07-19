@@ -29,7 +29,8 @@ const populateCharacterInfoBlock = (target, popup) => {
     const imageTags = popup.children[2].children;
 
     for (let i = 0; i < imageTags.length; i ++) {
-        imageTags[i].src = `./assets/img/${name}/${i + 1}.jpeg`
+        const hostName = window.location.hostname || '.'
+        imageTags[i].src = `${hostName}/assets/img/${name}/${i + 1}.jpeg`
     }
 }
 
