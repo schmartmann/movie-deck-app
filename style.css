@@ -144,6 +144,7 @@ div.character-gallery-container > div.gallery-row > img {
 
 @media only screen and (max-width: 1000px) {
     #character-detail-popup { 
-        width: 75%;
+        width: 80%;
+        left: 8%;
     }
 }
