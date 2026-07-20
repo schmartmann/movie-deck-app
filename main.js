@@ -26,7 +26,7 @@ const populateCharacterInfoBlock = (target, popup) => {
 
     popup.children[1].innerText = characterData.text;
 
-    const imageTags = popup.children[2].children;
+    const imageTags = popup.children[2].children[1].children;
 
     for (let i = 0; i < imageTags.length; i ++) {
         console.log('name.toLowerCase()', name.toLowerCase());
