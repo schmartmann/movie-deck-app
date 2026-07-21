@@ -58,7 +58,7 @@ div.row > img  {
     width: clamp(30px, 10vw, 120px);
     height: clamp(30px, 10vw, 120px);
 }
-div.premise > p { 
+div.text > p { 
     margin: 0 5% 5% 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
